@@ -11,7 +11,7 @@ function one( angry ){
         "Crying" de Roy Orbison 
         "Streets Of Philadelphia" de Bruce Springsteen 
         "Love Will Tear Us Apart" do Joy Division `]
-}(angry)
+}alert(angry)
 function two(sad){
     return sad[`
         "cardigan" de Taylor Swift
@@ -21,7 +21,7 @@ function two(sad){
         "Those Eyes" de New West
         "Deep End" de Holly Humberstone
         "vampire" de Olivia Rodrigo`]
-}(sad)
+}alert(sad)
 do{
    let option = prompt(`como voce esta se sentindo agora? irei te indicar alguns cantores e suas musicas para voce
     (escolha uma opcao:)voce esta:
