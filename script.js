@@ -1,4 +1,17 @@
-
+function one( angry ){
+    return angry[`
+        "Sweater Weather" de The Neighbourhood
+        "Everybody Hurts" de REM 
+        "Nothing Compares 2 U" de Sinead O'Connor 
+        "Tears in Heaven" de Eric Clapton 
+        "I Will Always Love You" de Whitney Houston 
+        "Yesterday" dos Beatles 
+        "Someone Like You" de Adele 
+        "My Heart Will Go On" de Celine Dion 
+        "Crying" de Roy Orbison 
+        "Streets Of Philadelphia" de Bruce Springsteen 
+        "Love Will Tear Us Apart" do Joy Division `]
+}
 do{
    let option = prompt(`como voce esta se sentindo agora? irei te indicar alguns cantores e suas musicas para voce
     (escolha uma opcao:)voce esta:
@@ -9,5 +22,12 @@ do{
     5.medo;
     6.sair.
     `)
+    switch(option){
+        case '1' : 
+        alert(`nao surta!! voce vsi conseguir se acalmar ouvindo algumas dessas musicas:
+            ${angry}`)
+            break
+
+    }
    
 } while (option !== '6')
