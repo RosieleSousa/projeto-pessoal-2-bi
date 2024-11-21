@@ -82,7 +82,7 @@ function menu() {
         let angry = one()
         alert(`nao surta!! voce vai conseguir se acalmar ouvindo algumas dessas musicas:
             ${angry.join('\n')}`)
-            break
+        
         case '2' :
             let sad = two()
             alert(`melhoras viu!! voce talvez pode se sentir melhor ouvindo algumas dessas musicas:
