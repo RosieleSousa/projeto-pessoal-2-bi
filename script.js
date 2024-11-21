@@ -12,7 +12,6 @@ function one(){
         '"Streets Of Philadelphia" de Bruce Springsteen',
         '"Love Will Tear Us Apart" do Joy Division' 
     ]
-    menu()
 }
 function two(){
     return [
@@ -24,7 +23,6 @@ function two(){
         '"Deep End" de Holly Humberstone',
         '"vampire" de Olivia Rodrigo'
     ]
-    menu()
 }
 function three(){
     return [
@@ -38,7 +36,6 @@ function three(){
     '"Someone Like You" de Adele',
     '"We Can Fly" de Café Del Mar'      
     ]
-    menu()
 }
 function four(){
     return [
@@ -53,7 +50,6 @@ function four(){
     '"Made Of Glass" De KT Tunstall',
     '"Visions of Gideon" De Sufjan Stevens' 
     ]
-    menu()
 }
 function five(){
     return[
@@ -65,7 +61,6 @@ function five(){
         '"Changes" De Black Sabbath', 
         '"Wish You Were Here" De Pink Floyd'   
     ]
-    menu()
 }
 function menu() {
    let option = prompt(`como voce esta se sentindo agora? irei te indicar alguns cantores e suas musicas para voce
@@ -82,7 +77,7 @@ function menu() {
         let angry = one()
         alert(`nao surta!! voce vai conseguir se acalmar ouvindo algumas dessas musicas:
             ${angry.join('\n')}`)
-        
+            break
         case '2' :
             let sad = two()
             alert(`melhoras viu!! voce talvez pode se sentir melhor ouvindo algumas dessas musicas:
@@ -108,8 +103,7 @@ function menu() {
             break
         default :
         alert("opcao invalida! tente novamente.")
-        menu()
     }
    
-}
-menu()
+} menu()
+
