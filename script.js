@@ -12,6 +12,7 @@ function one(){
         '"Streets Of Philadelphia" de Bruce Springsteen',
         '"Love Will Tear Us Apart" do Joy Division' 
     ]
+    menu()
 }
 function two(){
     return [
@@ -23,6 +24,7 @@ function two(){
         '"Deep End" de Holly Humberstone',
         '"vampire" de Olivia Rodrigo'
     ]
+    menu()
 }
 function three(){
     return [
@@ -36,6 +38,7 @@ function three(){
     '"Someone Like You" de Adele',
     '"We Can Fly" de Café Del Mar'      
     ]
+    menu()
 }
 function four(){
     return [
@@ -50,6 +53,7 @@ function four(){
     '"Made Of Glass" De KT Tunstall',
     '"Visions of Gideon" De Sufjan Stevens' 
     ]
+    menu()
 }
 function five(){
     return[
@@ -61,6 +65,7 @@ function five(){
         '"Changes" De Black Sabbath', 
         '"Wish You Were Here" De Pink Floyd'   
     ]
+    menu()
 }
 function menu() {
    let option = prompt(`como voce esta se sentindo agora? irei te indicar alguns cantores e suas musicas para voce
@@ -77,31 +82,26 @@ function menu() {
         let angry = one()
         alert(`nao surta!! voce vai conseguir se acalmar ouvindo algumas dessas musicas:
             ${angry.join('\n')}`)
-            menu()
             break
         case '2' :
             let sad = two()
             alert(`melhoras viu!! voce talvez pode se sentir melhor ouvindo algumas dessas musicas:
                 ${sad.join('\n')}`)
-                menu()
                 break
         case '3' :
             let  anxiety = three() 
             alert(`vai ficar tudo bem viu! respira fundo e ouve algumas dessas musicas para ver se voce melhora:
-                ${anxiety.join('\n')}`)
-                menu() 
+                ${anxiety.join('\n')}`) 
                 break
         case '4' :
             let  lonely = four()
             alert(`eu sei bem como e se sentir desse jeito... mas voce pode tentar melhorar ouvindo algumas dessas musicas:
                 ${lonely.join('\n')}`)
-                menu()
                 break
         case '5' :
             let deception = five()
             alert(`Eu sei que e ruim se sentir desse jeito, mas ta tudo bem viu! para vc se sentir melhor posso recomendar algumas dessas musicas para voce tentar melhorar:
                 ${deception.join('\n')}`)
-                menu()
                 break
         case '6' :
             alert('desejo melhoras para vc viu! se eu consegui te ajudar, me sinto agradecida por ter ajudado a vc melhorar seus sentimentos negativos mas nao se preocupe voce nao esta errado em se sentir mal, voce so deve controlar seus sentimentos e nao surtar viu!! ate logo!! :)')
