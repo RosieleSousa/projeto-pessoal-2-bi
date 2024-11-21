@@ -107,3 +107,4 @@ function menu() {
     }
    
 }
+menu()
