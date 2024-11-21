@@ -62,7 +62,7 @@ function five(){
         '"Wish You Were Here" De Pink Floyd'   
     ]
 }
-do{
+function menu() {
    let option = prompt(`como voce esta se sentindo agora? irei te indicar alguns cantores e suas musicas para voce
     (escolha uma opcao:)voce esta:
     1.raiva;
@@ -77,6 +77,7 @@ do{
         let angry = one()
         alert(`nao surta!! voce vai conseguir se acalmar ouvindo algumas dessas musicas:
             ${angry.join('\n')}`)
+            menu()
             break
         case '2' :
             let sad = two()
@@ -105,4 +106,4 @@ do{
         alert("opcao invalida! tente novamente.")
     }
    
-} while (option !== '6')
+}
