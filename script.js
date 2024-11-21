@@ -95,11 +95,11 @@ do{
                 break
         case '5' :
             let deception = five()
-            alert(`Eu sei que e ruim se sentir desse jeito mas ta tudi bem viu! para vc se sentir melhor posso recomendar algumas dessas musicas para voce tentar melhorar:
+            alert(`Eu sei que e ruim se sentir desse jeito, mas ta tudo bem viu! para vc se sentir melhor posso recomendar algumas dessas musicas para voce tentar melhorar:
                 ${deception.join('\n')}`)
                 break
         case '6' :
-            alert('desejo melhoras para vc viu! se eu consegui te ajudar, me sinto agradecida por ter colaborado com seus sentimentos negativos mas nao se preocupe voce nao esta errado em se sentir mal, voce so deve controlar seus sentimentos e nao surtar viu!! ate logo!!')
+            alert('desejo melhoras para vc viu! se eu consegui te ajudar, me sinto agradecida por ter ajudado a vc melhorar seus sentimentos negativos mas nao se preocupe voce nao esta errado em se sentir mal, voce so deve controlar seus sentimentos e nao surtar viu!! ate logo!! :)')
             break
         default :
         alert("opcao invalida! tente novamente.")
